@@ -22,16 +22,9 @@
       cursor: pointer;
       transition: transform 0.3s ease;
     }
-
     .heart:hover {
-      transform: scale(1.2);
-      
-    }
-     @keyframes pulse {
-      0%, 100% { transform: scale(1);}
-      50% { transform: scale(1.8);}
-    }
-
+      transform: scale(1.2);  
+    } 
     .card {
       width: 520px;
       height: 280px;
@@ -46,21 +39,17 @@
       transition: opacity 0.6s ease, transform 0.6s ease;
       overflow-y: auto;
     }
-
     .card.visible {
       opacity: 1;
       transform: scale(1);
     }
-
     .card::-webkit-scrollbar {
       width: 6px;
     }
-
     .card::-webkit-scrollbar-thumb {
       background: #f76e6e;
       border-radius: 3px;
     }
-
     h2 {
       color: #f76e6e;
       margin-top: 0;
@@ -68,55 +57,35 @@
   </style>
 </head>
 <body>
-
-  <div class="heart" onclick="toggleCard()">💗</div>
-
+ <div class="heart" onclick="toggleCard()">💗</div>
   <div class="card" id="card">
     <h2>🌷 To My Manuel</h2>
-
     <p>I have been missing you so much. I hope you are doing well. I just wanted to let you know
         that you are always in my thoughts. Take care of yourself and remember I love you dearly. It feels 
         incomplete without you. </p>
-        
-       </p> No matter what happens or how far we are from each other, nothing will
-        change. I will always love you and cherish the moments we shared together. Thank you for being 
-        patient with me and for always being there when I needed you. I am so proud of you and everything you do. 
+         </p> No matter what happens or how far we are from each other, nothing will
+        change.  Thank you for being patient with me and for always being there when I needed you. I am so proud of you and everything you do. 
         I will always support you, Nem. </p>
-        
-       </p> Kahit na malayo tayo sa isat-isa, nandito lang ako para sa iyo. Lagi kitang
+         </p> Kahit na malayo tayo sa isat-isa, nandito lang ako para sa iyo. Lagi kitang
         iniisip at pinagdarasal sa Panginoon na sana ay maging ligtas ka at matupad mo lahat ng iyong mga pangarap.
-        Hindi ako magaling mag express ng feelings kapag nagsasalita ako, dinadaan ko na lang sa mga sulat. Dahil
-        mas madali kong maipahayag ang aking nararamdaman. </p>
-        
-       </p> Hindi man ako palagi nag e-express ng feeling ko sa call tulad ng
-        pagsabi ng mahahabang mensahe sa call pero sana alam mo na mahal na mahal kita. </p>
-        
-      </p>  A BIGG GOODLUCKK sa pasukan
+        Hindi ako magaling mag express ng feelings kapag nagsasalita ako, dinadaan ko na lang sa mga sulat. </p>
+         </p>  A BIGG GOODLUCKK sa pasukan
         mo, Nem. I know you can do it! I believe in you and your abilities. Palagi mo lang tandaan na alagaan sarili mo
-        at huwag kalimutan magpahinga.</p>
-
+        at huwag kalimutan magpahinga. </p>
        </p> I know sometimes you feel sad or overwhelmed, and it's okay. Pray to God and ask for his guidance and strength.
         Alam ko at alam mo din na si God ang makakapagbigay sa iyo ng lakas at gaagabayan sa lahat ng iyong mga desisyon. Siya
         muna ang unahin mo sa lahat ng bagay. </p>
-        
         Sunod ang pamilya mo at ako kahit panghuli na ako. Andito lang ako, pwede mo
-        akong palaging sandalan.Kung mapagod ka, tara dito at sa akin ka  magpahinga. Kahit na minsan maldita ang baby mo o kaya meron tayong hindi 
-        pinagkakasunduan, lumapit ka lang sa akin.
-        
-        Kaya ko babaan ang pride ko para sa iyo. I wanted to write you a letter that you can read
-        whenever you miss me, hihi so here it is. Gusto ko din na in a unique way ang pag gawa ko ng letter, kasing unique mo, hihi.
-        I hope you like it. Loveyuhhh!!</p>
-
-</p>Your Wifey <br>
+        akong palaging sandalan. Kung mapagod ka, tara dito at sa akin ka  magpahinga. Kahit na minsan maldita ang baby mo o kaya meron tayong hindi 
+        pinagkakasunduan, lumapit ka lang sa akin. Kaya ko babaan ang pride ko para sa iyo. I hope you like it. Loveyuhhh!!</p>
+      </p>Your Wifey <br>
   </div>
-
-  <script>
+ <script>
     function toggleCard() {
       const card = document.getElementById("card");
       card.classList.toggle("visible");
     }
   </script>
-
 <html>
   <head><title>Letter Code</title></head>
   <body>
